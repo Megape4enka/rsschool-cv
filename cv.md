@@ -1,7 +1,3 @@
-### rsschool-cv
-
-***
-
 ### Anatoli Shukhantsou
 
 ***
