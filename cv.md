@@ -6,7 +6,7 @@
 
 ***
 
-### Contact: 
+### Contact
 1. Phone: +375 25 540 55 29 
 2. E-mail: mega.pe4enka@gmail.com 
 3. Discord: Anatoli Shukhantsou(@Megape4enka)
@@ -19,7 +19,7 @@ Experience in two projects. Elang and Healthuapp projects.
 
 ***
 
-### Skills:
+### Skills
 1. HTML
 2. CSS/SCSS
 3. JS/TS
