@@ -1,1 +1,1 @@
-[https://megape4enka.github.io/rsschool-cv-/cv](https://megape4enka.github.io/rsschool-cv-/cv)
+[https://megape4enka.github.io/rsschool-cv/cv](https://megape4enka.github.io/rsschool-cv/cv)
