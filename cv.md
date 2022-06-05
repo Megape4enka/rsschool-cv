@@ -63,6 +63,7 @@ Junior Frontend Developer in Taqtile
 1. BSUIR - systems engineer
 2. HTMLAcademy - HTML and CSS - professional website layout
 3. Udemy - JS - the complete zero to pro guide(auth Vladilen Minin)
-***
+
+*** 
 ### English
 A2(in progress)
