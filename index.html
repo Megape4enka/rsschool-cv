@@ -1,80 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>cv</title>
 </head>
 <body>
 
-    <header class="header">
-        <nav class="container">
-            <a class="logo-link" href="#">
-                <img class="logo-img" src="assets/img/logo.png" alt="logoCV">
-            </a>
-            <ul class="navigation-list">
-                <li class="navigation-item"><a href="#skills">Skills</a></li>
-                <li class="navigation-item"><a href="#experience">Experience</a></li>
-                <li class="navigation-item"><a href="#education">Education</a></li>
-                <li class="navigation-item"><a href="#english">English</a></li>
-                <li class="navigation-item"><a href="#code">Code example</a></li>
-                <li class="navigation-item"><a href="#project">Projects</a></li>
-                <li class="navigation-item"><a href="#about">About me</a></li>
-                <li class="navigation-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header class="header">
+    <nav class="container">
+        <a class="logo-link" href="#">
+            <img class="logo-img" src="assets/img/logo.png" alt="logoCV">
+        </a>
+        <ul class="navigation-list">
+            <li class="navigation-item"><a href="#skills">Skills</a></li>
+            <li class="navigation-item"><a href="#experience">Experience</a></li>
+            <li class="navigation-item"><a href="#education">Education</a></li>
+            <li class="navigation-item"><a href="#english">English</a></li>
+            <li class="navigation-item"><a href="#code">Code example</a></li>
+            <li class="navigation-item"><a href="#project">Projects</a></li>
+            <li class="navigation-item"><a href="#about">About me</a></li>
+            <li class="navigation-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main class="main container">
-        <h1 class="visually-hidden">Resume Anatoly Shukhantsou</h1>
-        <section class="profile">
-            <div class="profile-image">
-                <img src="assets/img/photo.jpg" alt="photo">
-            </div>
-            <div>
-                <p class="profile-name">Anatoly Shukhantsou</p>
-                <p class="profile-job">Frontend Developer</p>
-            </div>
-        </section>
+<main class="main container">
+    <h1 class="visually-hidden">Resume Anatoly Shukhantsou</h1>
+    <section class="profile">
+        <h2 class="visually-hidden">My name</h2>
+        <div class="profile-image">
+            <img src="assets/img/photo.jpg" alt="photo">
+        </div>
+        <div>
+            <p class="profile-name">Anatoly Shukhantsou</p>
+            <p class="profile-job">Frontend Developer</p>
+        </div>
+    </section>
 
-        <section class="skills" id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list text">
-                <li class="skills-item">HTML</li>
-                <li class="skills-item">CSS/SCSS</li>
-                <li class="skills-item">JS/TS</li>
-                <li class="skills-item">React/Next/Redux</li>
-                <li class="skills-item">Figma/Photoshop</li>
-                <li class="skills-item">Git</li>
-            </ul>
-        </section>
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list text">
+            <li class="skills-item">HTML</li>
+            <li class="skills-item">CSS/SCSS</li>
+            <li class="skills-item">JS/TS</li>
+            <li class="skills-item">React/Next/Redux</li>
+            <li class="skills-item">Figma/Photoshop</li>
+            <li class="skills-item">Git</li>
+        </ul>
+    </section>
 
-        <section class="experience" id="experience">
-            <h2>Experience</h2>
-            <div class="experience-text">
-                <p class="text">25.12.2021 - Junior Frontend Developer in Taqtile</p>
-            </div>
-        </section>
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <div class="experience-text">
+            <p class="text">25.12.2021 - Junior Frontend Developer in Taqtile</p>
+        </div>
+    </section>
 
-        <section class="education" id="education">
-            <h2>Education</h2>
-            <ul class="education-list text">
-                <li class="education-item">BSUIR - systems engineer</li>
-                <li class="education-item">HTMLAcademy - HTML and CSS - professional website layout</li>
-                <li class="education-item">Udemy - JS - the complete zero to pro guide(auth Vladilen Minin)</li>
-            </ul>
-        </section>
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <ul class="education-list text">
+            <li class="education-item">BSUIR - systems engineer</li>
+            <li class="education-item">HTMLAcademy - HTML and CSS - professional website layout</li>
+            <li class="education-item">Udemy - JS - the complete zero to pro guide(auth Vladilen Minin)</li>
+        </ul>
+    </section>
 
-        <section class="english" id="english">
-            <h2>English</h2>
-            <p class="text">A2(in progress)</p>
-        </section>
+    <section class="english" id="english">
+        <h2>English</h2>
+        <p class="text">A2(in progress)</p>
+    </section>
 
-        <section class="code" id="code">
-            <h2>Code</h2>
-            <pre>
+    <section class="code" id="code">
+        <h2>Code</h2>
+        <pre>
                 <code>
                   const declination = (length: number, checkLanguageRu: boolean, emptyVocabulary: any) => {
                     const num = length % 10;
@@ -111,44 +112,44 @@
                 };
                 </code>
             </pre>
-        </section>
+    </section>
 
-        <section class="projects" id="project">
-            <h2>My projects</h2>
-            <div>
-                <p class="text">Cat energy(study project) - <a target="_blank" href="https://megape4enka.github.io/cat-energy/index.html">link</a></p>
-                <p class="text">React pizza(study project) - <a target="_blank" href="https://react-pizza-learn.herokuapp.com/">link</a></p>
-                <p class="text">HealthUapp(work page for AB test) - <a target="_blank" href="https://megape4enka.github.io/landing/">link</a></p>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <h2>About me</h2>
-            <p class="text">
-                My goal is to raise the level of knowledge in Frontend. Strengths are teamwork and technical expertise.
-                Experience in two projects. Elang and Healthuapp projects.
-            </p>
-        </section>
-
-        <section class="contact" id="contact">
-            <h2>Contact</h2>
-            <ul class="text">
-                <li class="contact-item">Discord: Anatoli Shukhantsou(@Megape4enka)</li>
-                <li class="contact-item">Email: <a href="mailto:mega.pe4enka@gmail.com">mega.pe4enka@gmail.com</a></li>
-                <li class="contact-item">Address: Minsk, Belarus</li>
-            </ul>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <p>© 2022</p>
-            <a href="https://github.com/Megape4enka">Pe4enka</a>
-            <a target="_blank" href="https://rs.school/js/">
-                <img class="footer-logo" src="assets/icon/rsWhiteLogo.svg" alt="rsschool">
-            </a>
+    <section class="projects" id="project">
+        <h2>My projects</h2>
+        <div>
+            <p class="text">Cat energy(study project) - <a target="_blank" href="https://megape4enka.github.io/cat-energy/index.html">link</a></p>
+            <p class="text">React pizza(study project) - <a target="_blank" href="https://react-pizza-learn.herokuapp.com/">link</a></p>
+            <p class="text">HealthUapp(work page for AB test) - <a target="_blank" href="https://megape4enka.github.io/landing/">link</a></p>
         </div>
-    </footer>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About me</h2>
+        <p class="text">
+            My goal is to raise the level of knowledge in Frontend. Strengths are teamwork and technical expertise.
+            Experience in two projects. Elang and Healthuapp projects.
+        </p>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <ul class="text">
+            <li class="contact-item">Discord: Anatoli Shukhantsou(@Megape4enka)</li>
+            <li class="contact-item">Email: <a href="mailto:mega.pe4enka@gmail.com">mega.pe4enka@gmail.com</a></li>
+            <li class="contact-item">Address: Minsk, Belarus</li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>© 2022</p>
+        <a href="https://github.com/Megape4enka">Pe4enka</a>
+        <a target="_blank" href="https://rs.school/js/">
+            <img class="footer-logo" src="assets/icon/rsWhiteLogo.svg" alt="rsschool">
+        </a>
+    </div>
+</footer>
 </body>
 </html>
